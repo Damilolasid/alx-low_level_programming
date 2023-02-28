@@ -3,11 +3,11 @@
  *swap_int - swaps te values of two integers
  *@a: one integer
  *@b: the second integer
- *Return : 0 Success
+ *Return 0
  */
 void swap_int(int *a, int *b);
 {
-int = c;
+int c;
 c = *a;
 *a = *b;
 *b = c;
