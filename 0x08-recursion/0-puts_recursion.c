@@ -1,8 +1,7 @@
 #include "main.h"
-/*
- *main - a program that prints out an input recursively
- *_puts_recursion-function like puts();
- *@s: input pointer 
+/**
+ *_puts_recursion - functions like puts();
+ *@s: input
  *Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
