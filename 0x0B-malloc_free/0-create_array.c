@@ -7,7 +7,7 @@
  *@size: size of array
  *@c: intial value
  *
- *Return a pointer to ar or NULL if it fails
+ *Return ar pointer to ar or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
 {
