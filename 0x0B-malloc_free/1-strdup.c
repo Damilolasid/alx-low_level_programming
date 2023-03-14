@@ -20,9 +20,8 @@ length++;
 duplicate = (char *)malloc((sizeof(char) * length) +1);
 if (duplicate == NULL)
 return (NULL);
- 
-for (i = 0;i < length; i++)
+for (i = 0; i < length; i++)
 duplicate[i] = str[i];
-duplicate[length] ='\0';
-return (duplicate);  
+duplicate[length] = '\0';
+return (duplicate);
 }
